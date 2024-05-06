@@ -1,8 +1,6 @@
-import React from 'react'
 import spacegallery from "../mocks/spacegallery.json";
 import fav from "../assets/fav.png"
 import screenModal from "../assets/screenModal.png"
-import favactive from "../assets/favactive.png"
 import styled from 'styled-components';
 
     const UlStyled = styled.ul`
@@ -26,7 +24,7 @@ const Gallery = () => {
             <UlStyled>
                 {spacegallery.map((item) => (
                     <LiStyled key={item.id}>
-                            <img src={item.img} alt={item.alt} />
+                            <img src={`cards/${item.img}`}  alt={item.alt} />
                             <div className='firstdiv'>
                                 <h1>Nome da foto</h1>
                                 <span>Fonte/Fotógrafo/Satelite</span>
