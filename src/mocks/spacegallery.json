@@ -1,46 +1,50 @@
 [
     {
         "id": 1,
-        "img": "../assets/cards/card1.png",
+        "img": "card1.png",
         "alt": "imagem no espaço"
     },
     {
         "id": 2,
-        "img": "./assets/cards/card2.png",
+        "img": "card2.png",
         "alt": "imagem no espaço"
     },
     {
         "id": 3,
-        "img": "./assets/cards/card3.png",
+        "img": "card3.png",
         "alt": "imagem no espaço"
     },
     {
         "id": 4,
-        "img": "../assets/cards/card4.png",
+        "img": "card4.png",
         "alt": "imagem no espaço" 
     },
     {
         "id": 5,
-        "img": "./assets/cards/card5.png",
+        "img": "card5.png",
         "alt": "imagem no espaço" 
     },
     {
         "id": 6,
-        "img": "./assets/cards/card6.png",
+        "img": "card6.png",
         "alt": "imagem no espaço" 
     },
     {
         "id": 7,
-        "img": "./assets/cards/card7.png",
+        "img": "card7.png",
         "alt": "imagem no espaço" 
     },
     {
         "id": 8,
-        "img": "./assets/cards/card8.png",
+        "img": "card8.png",
         "alt": "imagem no espaço" 
     },
     {
         "id": 9,
-        "img": "../assets/cards9" 
+        "img": "card9.png" 
+    },
+    {
+        "id": 10,
+        "img": "card10.png" 
     }
 ]

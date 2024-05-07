@@ -3,10 +3,12 @@ import styled from 'styled-components'
 import banner from '../assets/banner.png'
 
 const SectionStyled = styled.section`
-width: 1156px;
-height: 328px;
+min-height: 328px;
 background-image: url(${banner});
+object-fit: cover;
 border-radius: 20px;
+background-size: cover;
+
 span {
     color: #fff;
     display: flex;

@@ -16,7 +16,7 @@ const UlStyled = styled.ul`
   padding: 0;
   li {
     display: flex;
-    gap: 5px;
+    gap: 15px;
     list-style-type: none;
     align-items: center;
     margin-bottom: 20px;

@@ -3,6 +3,10 @@ import Header from "./componentes/Header";
 import SideBar from "./componentes/SideBar";
 import Banner from "./componentes/Banner";
 import Gallery from "./componentes/Gallery";
+import Popularity from "./componentes/Popularity";
+import Tags from "./componentes/Tags";
+import Modal from "./componentes/Modal";
+import { useState } from "react";
 
 const BgGradient = styled.div`
   background: linear-gradient(174.61deg, #041833 4.16%, #04244f 48%, #154580 96.76%);
@@ -27,8 +31,11 @@ flex-direction: column;
 flex-grow: 1;
 `
 
-function App() {
+const FlexContainer = styled.section`
+display: flex;
+`
 
+function App() {
   return (
     <BgGradient>
       <GridContainer>
@@ -37,7 +44,11 @@ function App() {
           <SideBar />
           <ColumnContainer>
             <Banner />
-            <Gallery />
+            <Tags />
+            <FlexContainer>
+              <Gallery />
+              <Popularity />
+            </FlexContainer>
           </ColumnContainer>
         </MainContainer>
       </GridContainer>
@@ -45,4 +56,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
